@@ -6,8 +6,8 @@
 const express = require("express");
 
 // local modules
-const db = require("./sqlWrap");
-const win = require("./pickWinner");
+const db = require("../sqlWrap");
+const win = require("../pickWinner");
 
 
 // gets data out of HTTP request body 
